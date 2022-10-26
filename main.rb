@@ -46,7 +46,7 @@ end
 def morse_words(character)
   morse_words = ''
   character.split.each { |word| morse_words += morse_character(word) }
-  return morse_words
+  morse_words
 end
 
 def morse_message(character)
