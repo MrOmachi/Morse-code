@@ -38,6 +38,7 @@ MORSE_TRANSLATOR = {
   '-----' => '0'
 }.freeze
 
+# Create a method that translates a morse character to Uppercase
 def morse_character(character)
   MORSE_TRANSLATOR[character].upcase
 end
